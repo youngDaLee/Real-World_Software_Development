@@ -1,7 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f9cb8f4-35cd-44a6-94e3-587f31afd5d7" name="Changes" comment="TEST: 테스트 코드 추가">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ch02" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YG084lAvkxWHcoQ2hXX7XRbDAR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ch03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.dylee" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dylee.Main" />
+      <module name="Real-World_Software_Development.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dylee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f9cb8f4-35cd-44a6-94e3-587f31afd5d7" name="Changes" comment="" />
+      <created>1700136448694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700136448694</updated>
+      <workItem from="1700136449810" duration="5144000" />
+      <workItem from="1700567951689" duration="46000" />
+    </task>
+    <task id="LOCAL-00001" summary="init project">
+      <option name="closed" value="true" />
+      <created>1700136732968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700136732968</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ADD: ch02 요구사항">
+      <option name="closed" value="true" />
+      <created>1700137607609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700137607609</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ADD: 입출금 내역 분석기 단순 코드">
+      <option name="closed" value="true" />
+      <created>1700137637630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700137637630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ADD: 입출금 내역 도메인 클래스 추가">
+      <option name="closed" value="true" />
+      <created>1700137879915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700137879915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ADD: CSV 파싱 로직 분리">
+      <option name="closed" value="true" />
+      <created>1700138071072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700138071072</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ADD: CSV 파싱 로직 분리">
+      <option name="closed" value="true" />
+      <created>1700138129113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700138129113</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ADD: 분리된 CSV 클래스 이용하여 리팩터링">
+      <option name="closed" value="true" />
+      <created>1700138752056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700138752056</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ADD: 계산 클래스 분리">
+      <option name="closed" value="true" />
+      <created>1700139051813</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700139051813</updated>
+    </task>
+    <task id="LOCAL-00009" summary="FIX: 계산 클래스 분리">
+      <option name="closed" value="true" />
+      <created>1700139371134</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700139371134</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FIX: 결합 제거">
+      <option name="closed" value="true" />
+      <created>1700140014588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700140014588</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FIX: 결합 제거 응용 프로그램">
+      <option name="closed" value="true" />
+      <created>1700140247539</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700140247539</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TEST: 테스트 코드 추가">
+      <option name="closed" value="true" />
+      <created>1700140959869</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700140959869</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <MESSAGE value="ADD: ch02 요구사항" />
+    <MESSAGE value="ADD: 입출금 내역 분석기 단순 코드" />
+    <MESSAGE value="ADD: 입출금 내역 도메인 클래스 추가" />
+    <MESSAGE value="ADD: CSV 파싱 로직 분리" />
+    <MESSAGE value="ADD: 분리된 CSV 클래스 이용하여 리팩터링" />
+    <MESSAGE value="ADD: 계산 클래스 분리" />
+    <MESSAGE value="FIX: 계산 클래스 분리" />
+    <MESSAGE value="FIX: 결합 제거" />
+    <MESSAGE value="FIX: 결합 제거 응용 프로그램" />
+    <MESSAGE value="TEST: 테스트 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST: 테스트 코드 추가" />
   </component>
 </project>
