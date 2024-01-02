@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f9cb8f4-35cd-44a6-94e3-587f31afd5d7" name="Changes" comment="FIX: ch03 - OCP 적용 : 필터 구현 클래스 생성">
+    <list default="true" id="6f9cb8f4-35cd-44a6-94e3-587f31afd5d7" name="Changes" comment="BUG: ch03 - 오타수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,7 @@
       <updated>1700136448694</updated>
       <workItem from="1700136449810" duration="5144000" />
       <workItem from="1700567951689" duration="1903000" />
-      <workItem from="1704197840068" duration="199000" />
+      <workItem from="1704197840068" duration="1369000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -241,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700570158776</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="BUG: ch03 - 오타수정">
+      <option name="closed" value="true" />
+      <created>1704198611377</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704198611377</updated>
+    </task>
+    <task id="LOCAL-00018" summary="BUG: ch03 - 오타수정">
+      <option name="closed" value="true" />
+      <created>1704198676262</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704198676262</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +279,7 @@
     <MESSAGE value="ADD: 거래 내역 속성 조합 코드 추가&#10;&#10;Issue&#10;* 거래 내역 속성 조합할수록 코드 복잡해짐&#10;* 반복 로직과 비즈니스 로직 결합되어 분리 어려워짐&#10;* 코드 반복" />
     <MESSAGE value="FIX: ch03 - OCP 적용" />
     <MESSAGE value="FIX: ch03 - OCP 적용 : 필터 구현 클래스 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIX: ch03 - OCP 적용 : 필터 구현 클래스 생성" />
+    <MESSAGE value="BUG: ch03 - 오타수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="BUG: ch03 - 오타수정" />
   </component>
 </project>
