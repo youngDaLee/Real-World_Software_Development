@@ -4,18 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6dc9696-c87f-4487-b044-2c84866181e1" name="Changes" comment="Update ReadMe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dylee/BusinessRuleEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a6dc9696-c87f-4487-b044-2c84866181e1" name="Changes" comment="Fix : Action이 Facts를 인자로 받아 객체마다 고유한 Fact를 가지도록 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dylee/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dylee/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -29,6 +51,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "ch05",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -36,6 +60,132 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.dylee" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BusinessRuleEngineTest.shouldPerformAnActionWithFacts">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dylee.Main" />
+      <module name="Real-World_Software_Development.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dylee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessRuleEngineTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.dylee.BusinessRuleEngineTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BusinessRuleEngineTest.shouldExecuteOneAction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.dylee.BusinessRuleEngineTest.shouldExecuteOneAction&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BusinessRuleEngineTest.shouldPerformAnActionWithFacts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.dylee.BusinessRuleEngineTest.shouldPerformAnActionWithFacts&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Real-World_Software_Development [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BusinessRuleEngineTest.shouldPerformAnActionWithFacts" />
+        <item itemvalue="Gradle.BusinessRuleEngineTest.shouldExecuteOneAction" />
+        <item itemvalue="Gradle.BusinessRuleEngineTest (1)" />
+        <item itemvalue="Gradle.Real-World_Software_Development [build]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Update ReadMe">
       <option name="closed" value="true" />
@@ -45,11 +195,136 @@
       <option name="project" value="LOCAL" />
       <updated>1704970012512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update .gitignore">
+      <option name="closed" value="true" />
+      <created>1704970044108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704970044108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ADD : 기본 기능 API 추가">
+      <option name="closed" value="true" />
+      <created>1704970062787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704970062787</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ADD : 액션 인터페이스 정의">
+      <option name="closed" value="true" />
+      <created>1704970198076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704970198076</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TEST : 비즈니스 로직 실패 테스트 구현">
+      <option name="closed" value="true" />
+      <created>1704971151927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704971151927</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ADD : 테스트코드에 따라 로직 추가">
+      <option name="closed" value="true" />
+      <created>1704971238270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704971238270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ADD : mockito 라이브러리 추가">
+      <option name="closed" value="true" />
+      <created>1704971413275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704971413275</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ADD : mockito 활용하여 run의 execute 메서드 실행되었는지 확인">
+      <option name="closed" value="true" />
+      <created>1704971619843</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704971619843</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ADD : run 메서드 비즈니스 로직 추가">
+      <option name="closed" value="true" />
+      <created>1704971680271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704971680271</updated>
+    </task>
+    <task id="LOCAL-00010" summary="BUG : 오타 수정">
+      <option name="closed" value="true" />
+      <created>1704972089149</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704972089149</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TEST : (실패테스트)Facts 객체를 인수로 전달해 지정 액션 실행 여부 테스트">
+      <option name="closed" value="true" />
+      <created>1704972575748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704972575748</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TEST : (실패테스트)Facts 객체를 인수로 전달해 지정 액션 실행 여부 테스트">
+      <option name="closed" value="true" />
+      <created>1704972585009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704972585009</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ADD : Facts 클래스 생성">
+      <option name="closed" value="true" />
+      <created>1704972690919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704972690919</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix : execute가 Facts 객체를 인수로 받도록 수정">
+      <option name="closed" value="true" />
+      <created>1704972752246</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704972752246</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix : Action이 Facts를 인자로 받아 객체마다 고유한 Fact를 가지도록 수정">
+      <option name="closed" value="true" />
+      <created>1704972858663</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704972858663</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update ReadMe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ReadMe" />
+    <MESSAGE value="Update .gitignore" />
+    <MESSAGE value="ADD : 기본 기능 API 추가" />
+    <MESSAGE value="ADD : 액션 인터페이스 정의" />
+    <MESSAGE value="TEST : 비즈니스 로직 실패 테스트 구현" />
+    <MESSAGE value="ADD : 테스트코드에 따라 로직 추가" />
+    <MESSAGE value="ADD : mockito 라이브러리 추가" />
+    <MESSAGE value="ADD : mockito 활용하여 run의 execute 메서드 실행되었는지 확인" />
+    <MESSAGE value="ADD : run 메서드 비즈니스 로직 추가" />
+    <MESSAGE value="BUG : 오타 수정" />
+    <MESSAGE value="TEST : (실패테스트)Facts 객체를 인수로 전달해 지정 액션 실행 여부 테스트" />
+    <MESSAGE value="ADD : Facts 클래스 생성" />
+    <MESSAGE value="Fix : execute가 Facts 객체를 인수로 받도록 수정" />
+    <MESSAGE value="Fix : Action이 Facts를 인자로 받아 객체마다 고유한 Fact를 가지도록 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix : Action이 Facts를 인자로 받아 객체마다 고유한 Fact를 가지도록 수정" />
   </component>
 </project>
