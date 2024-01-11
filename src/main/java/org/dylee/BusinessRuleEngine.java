@@ -8,8 +8,10 @@ import java.util.List;
  */
 public class BusinessRuleEngine {
     private final List<Action> actions;
+    public final Facts facts;
 
-    public BusinessRuleEngine() {
+    public BusinessRuleEngine(final Facts facts) {
+        this.facts = facts;
         this.actions = new ArrayList<>();
     }
 
@@ -22,6 +24,6 @@ public class BusinessRuleEngine {
     }
 
     public void run() {
-        this.actions.forEach(Action::execute);
+        this.actions.forEach(action -> action.execute(facts));
     }
 }
