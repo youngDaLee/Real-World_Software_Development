@@ -22,6 +22,7 @@ public class Main {
                 case INTERESTED -> 0.8;
                 case CLOSED -> 1;
             };
+            facts.addFact("forecastedAmount", String.valueOf(forecastedAmount));
         });
     }
 }
