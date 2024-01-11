@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6dc9696-c87f-4487-b044-2c84866181e1" name="Changes" comment="Fix : Action이 Facts를 인자로 받아 객체마다 고유한 Fact를 가지도록 수정">
+    <list default="true" id="a6dc9696-c87f-4487-b044-2c84866181e1" name="Changes" comment="Add : 액션 목록 받아와 팩트로 평가하는 클래스 생성">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dylee/InspectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dylee/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dylee/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -307,7 +308,71 @@
       <option name="project" value="LOCAL" />
       <updated>1704972858663</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ADD : 거래 상태 enum">
+      <option name="closed" value="true" />
+      <created>1704973541517</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704973541517</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix : var 지역변수 사용한 액션">
+      <option name="closed" value="true" />
+      <created>1704973592354</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704973592354</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fix : switch문으로 분기 처리">
+      <option name="closed" value="true" />
+      <created>1704973740313</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704973740313</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fix : fall-through 방지">
+      <option name="closed" value="true" />
+      <created>1704973880317</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704973880317</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fix : 액션 구현">
+      <option name="closed" value="true" />
+      <created>1704973908472</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1704973908472</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix : 테스트코드 위치 변경">
+      <option name="closed" value="true" />
+      <created>1704974409223</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1704974409223</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add : 실행부/조건부 분리된 인터페이스 생성">
+      <option name="closed" value="true" />
+      <created>1704974467329</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1704974467329</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add : 액션 목록 받아와 팩트로 평가하는 클래스 생성">
+      <option name="closed" value="true" />
+      <created>1704974853088</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1704974853088</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,6 +390,14 @@
     <MESSAGE value="ADD : Facts 클래스 생성" />
     <MESSAGE value="Fix : execute가 Facts 객체를 인수로 받도록 수정" />
     <MESSAGE value="Fix : Action이 Facts를 인자로 받아 객체마다 고유한 Fact를 가지도록 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix : Action이 Facts를 인자로 받아 객체마다 고유한 Fact를 가지도록 수정" />
+    <MESSAGE value="ADD : 거래 상태 enum" />
+    <MESSAGE value="Fix : var 지역변수 사용한 액션" />
+    <MESSAGE value="Fix : switch문으로 분기 처리" />
+    <MESSAGE value="Fix : fall-through 방지" />
+    <MESSAGE value="Fix : 액션 구현" />
+    <MESSAGE value="Fix : 테스트코드 위치 변경" />
+    <MESSAGE value="Add : 실행부/조건부 분리된 인터페이스 생성" />
+    <MESSAGE value="Add : 액션 목록 받아와 팩트로 평가하는 클래스 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add : 액션 목록 받아와 팩트로 평가하는 클래스 생성" />
   </component>
 </project>
