@@ -35,6 +35,6 @@ class BusinessRuleEngineTest {
         businessRuleEngine.addAction(mockAction);
         businessRuleEngine.run();
 
-        verify(mockAction).excute();
+        verify(mockAction).execute();
     }
 }
